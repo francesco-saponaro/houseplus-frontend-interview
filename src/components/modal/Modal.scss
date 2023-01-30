@@ -1,0 +1,55 @@
+// Modal
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  // Content
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fefefe;
+    padding: 20px;
+    width: 65%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-size: 18px;
+
+    &--text {
+      padding-top: 10vh;
+      font-size: 2.5vw;
+
+      @media screen and (max-width: 767px) {
+        font-size: 16px;
+      }
+
+      &--data {
+        font-weight: bold;
+      }
+    }
+
+    &--close {
+      width: fit-content !important;
+      padding: 0.25vw 0.75vw !important;
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+      font-size: 2vw !important;
+      align-self: flex-end;
+
+      @media screen and (max-width: 767px) {
+        font-size: 16px !important;
+        padding: 1px 6px !important;
+      }
+    }
+  }
+}
