@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/houseplus-frontend-interview/static/css/main.214a42b7.css",
+    "main.js": "/houseplus-frontend-interview/static/js/main.01b286c1.js",
+    "index.html": "/houseplus-frontend-interview/index.html",
+    "static/media/icona-apri.svg": "/houseplus-frontend-interview/static/media/icona-apri.7a765a5b3e064d1c4cf8.svg",
+    "main.214a42b7.css.map": "/houseplus-frontend-interview/static/css/main.214a42b7.css.map",
+    "main.01b286c1.js.map": "/houseplus-frontend-interview/static/js/main.01b286c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.214a42b7.css",
+    "static/js/main.01b286c1.js"
+  ]
+}
